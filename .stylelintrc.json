@@ -1,7 +1,6 @@
 {
-  "extends": ["stylelint-config-standard"],
   "rules": {
-    "color-no-invalid-hex": true,
+   "color-no-invalid-hex": true,
     "font-family-no-missing-generic-family-keyword": true,
     "block-no-empty": true,
     "property-no-unknown": true,
