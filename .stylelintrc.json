@@ -1,14 +1,15 @@
 {
+  "extends": ["stylelint-config-standard"],
   "rules": {
     "color-no-invalid-hex": true,
-    "font-family-no-duplicate-names": true,
-    "function-calc-no-invalid": true,
-    "unit-no-unknown": true,
-    "property-no-unknown": true,
-    "declaration-block-no-duplicate-properties": true,
-    "declaration-block-trailing-semicolon": "always",
+    "font-family-no-missing-generic-family-keyword": true,
     "block-no-empty": true,
-    "selector-pseudo-element-no-unknown": true,
-    "no-extra-semicolons": true
+    "property-no-unknown": true,
+    "unit-no-unknown": true,
+    "selector-type-no-unknown": true,
+    "no-duplicate-selectors": true,
+    "declaration-block-no-duplicate-properties": true,
+    "string-no-newline": true,
+    "length-zero-no-unit": true
   }
 }
