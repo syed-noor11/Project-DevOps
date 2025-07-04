@@ -27,3 +27,4 @@ jobs:
           ref: ${{github.ref}}
       - name: Building the website using Parcel #for building the website
         run: npx parcel build "./src/index.html" --dist-dir "./dist" --public-url "./"
+  
